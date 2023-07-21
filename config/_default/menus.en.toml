@@ -11,6 +11,11 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
+  name = "Home"
+  url = "https://havertz2110.github.io"
+  weight = 10
+
+[[main]]
   name = "Posts"
   pageRef = "posts"
   weight = 10
