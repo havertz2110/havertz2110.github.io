@@ -12,7 +12,7 @@
 
 [[main]]
   name = "Home"
-  url = "https://havertz2110.github.io"
+  pageRef = "home"
   weight = 10
 
 [[main]]
