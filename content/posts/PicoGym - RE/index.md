@@ -3,7 +3,7 @@ title: "PicoGym - RE"
 description: "Writeup for PicoGym "
 summary: "Writeup for PicoGym "
 categories: ["Writeup"]
-tags: ["Reverse","CTF", "Training"]
+tags: ["Reverse","CTF"]
 #externalUrl: ""
 date: 2023-08-03
 draft: false
