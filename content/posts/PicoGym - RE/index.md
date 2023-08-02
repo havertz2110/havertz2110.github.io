@@ -10,11 +10,7 @@ draft: false
 authors:
   - 4nh
 ---
-
 Here are all the challenges I have done in order to improve my skills ( still updating :D )
-
-
-# RE
 
 ## 1. Transformation - 20pts
 
