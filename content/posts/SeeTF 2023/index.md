@@ -10,5 +10,4 @@ draft: false
 authors:
   - 4nh
 ---
-
-this is for test
+Even though me and my team didnt gather much in this contest, but I still want to write some for studying
