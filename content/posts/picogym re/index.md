@@ -1,5 +1,5 @@
 ---
-title: "UIU CTF 2023"
+title: "picogym re"
 description: "Writeup for UIU CTF 2023"
 summary: "Writeup for UIU CTF 2023"
 categories: ["Writeup"]
