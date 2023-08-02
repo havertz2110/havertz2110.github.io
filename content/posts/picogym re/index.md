@@ -5,7 +5,7 @@ summary: "Writeup for UIU CTF 2023"
 categories: ["Writeup"]
 tags: ["Reverse","DFIR","Honors","Top tier","CTF"]
 #externalUrl: ""
-date: 2023-08-03
+date: 2023-08-02
 draft: false
 authors:
   - 4nh
