@@ -2,8 +2,8 @@
 title: "string processing"
 description: "something for strings"
 summary: "something for string"
-categories: ["Note"]
-tags: ["note"]
+categories: ["Note","Programming"]
+tags: ["note","programming"]
 #externalUrl: ""
 date: 2023-07-19
 draft: false
