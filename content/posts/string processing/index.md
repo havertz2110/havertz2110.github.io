@@ -3,9 +3,9 @@ title: "string processing"
 description: "something for strings"
 summary: "something for string"
 categories: ["Note","Programming"]
-tags: ["note","programming"]
+tags: ["Note","Programming"]
 #externalUrl: ""
-date: 2023-07-19
+date: 2023-08-11
 draft: false
 authors:
   - 4nh
