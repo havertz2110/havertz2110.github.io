@@ -27,7 +27,7 @@ I'm studying Information Security (Honor Program) at University of Information T
 
 My currently working area: DFIR, Reverse Engineering and AI 
 
-Moreover, Im also interested in chemistry and physics ( especially in quantum tunnelling). If u have the same interest as me, feel free to give me a text :D, we can have small talks about them, see ya
+Moreover, Im also interested in chemistry (currently is organics, but im doing research on physical and nuclear chemistry) and physics ( especially in quantum tunnelling). If u have the same interest as me, feel free to give me a text :D, we can have small talks about them, see ya
 
 Here are some of my fav melodies:
 
