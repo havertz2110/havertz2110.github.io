@@ -34,6 +34,9 @@ Im responsible for 2 areas in my team: Misc and Osint(Rev is done after the cont
 
 **Provided files: [entry.sh](https://2023.uiuc.tf/files/9ab066e6d8dc34b582242cd0ee5b54b8/entry.sh) -- [nsjail.cgf](https://2023.uiuc.tf/files/55e629783aaddfeb0725477795ac4156/nsjail.cfg)-- [vimrc](https://2023.uiuc.tf/files/73a3a3658313279c33f2fc69b50c45cf/vimrc)**
 
+
+At my first try, I saw 1 thing that if I connected to the server, I would be stuck at vim environment, therefore, I couldn't type anything I couldn't get out of this as a result. So, I think we have to find something in order to get out of this ( it would pop up a flag in the end, i guess?? :D )
+Because of that, I looked up at the provided files, I checked at 'nsjail.cfg' but nothing looked sus in there, so I checked the rest ones. 
 ## 2. vimjail1.5
 
 <div class="warning" style="padding:0.1em; background-color:#1A1F35;">
@@ -52,7 +55,7 @@ Im responsible for 2 areas in my team: Misc and Osint(Rev is done after the cont
     </span>
 </div>
 
-**Provided files: [entry.sh](https://2023.uiuc.tf/files/55063dc423a8373f8cbc60d8aabd4ba6/entry.sh) -- [nsjail.cgf](https://2023.uiuc.tf/files/77ce241f2ff30c19cee849f65f2cf0dd/nsjail.cfg)-- [vimrc](https://2023.uiuc.tf/files/a5c49e80eb02414585d49a4815d2f004/vimrc)**
+**Provided files: [entry.sh](https://2023.uiuc.tf/files/55063dc423a8373f8cbc60d8aabd4ba6/entry.sh) -- [nsjail.cfg](https://2023.uiuc.tf/files/77ce241f2ff30c19cee849f65f2cf0dd/nsjail.cfg)-- [vimrc](https://2023.uiuc.tf/files/a5c49e80eb02414585d49a4815d2f004/vimrc)**
 
 
 
@@ -74,7 +77,7 @@ Im responsible for 2 areas in my team: Misc and Osint(Rev is done after the cont
     </span>
 </div>
 
-**Provided files: [entry.sh](https://2023.uiuc.tf/files/62b21acdeb6002bd9031cb569c43c8d4/entry.sh) -- [nsjail.cgf](https://2023.uiuc.tf/files/7787cd00e0f101d9680a52caee6b142a/nsjail.cfg)-- [vimrc](https://2023.uiuc.tf/files/35c5ace464a7bfa666295c14a2f8a9ed/vimrc) -- [viminfo](https://2023.uiuc.tf/files/bf3c336737319e16887d1b411234ae2f/viminfo)**
+**Provided files: [entry.sh](https://2023.uiuc.tf/files/62b21acdeb6002bd9031cb569c43c8d4/entry.sh) -- [nsjail.cfg](https://2023.uiuc.tf/files/7787cd00e0f101d9680a52caee6b142a/nsjail.cfg)-- [vimrc](https://2023.uiuc.tf/files/35c5ace464a7bfa666295c14a2f8a9ed/vimrc) -- [viminfo](https://2023.uiuc.tf/files/bf3c336737319e16887d1b411234ae2f/viminfo)**
 ## 4. vimjail2.5
 <div class="warning" style="padding:0.1em; background-color:#1A1F35;">
     <span>
@@ -92,7 +95,7 @@ Im responsible for 2 areas in my team: Misc and Osint(Rev is done after the cont
     </span>
 </div>
 
-**Provided files: [entry.sh](https://2023.uiuc.tf/files/68058c49bdcc76666df0355f04887fbf/entry.sh) -- [nsjail.cgf](https://2023.uiuc.tf/files/c874fca1cbeec692a1f38e5b7cf39bd2/nsjail.cfg)-- [vimrc](https://2023.uiuc.tf/files/f0067b22797e23def853f13923eb6568/vimrc) -- [viminfo](https://2023.uiuc.tf/files/b10cd1e18dcb2013f0ab008cfebf4f8b/viminfo)**
+**Provided files: [entry.sh](https://2023.uiuc.tf/files/68058c49bdcc76666df0355f04887fbf/entry.sh) -- [nsjail.cfg](https://2023.uiuc.tf/files/c874fca1cbeec692a1f38e5b7cf39bd2/nsjail.cfg)-- [vimrc](https://2023.uiuc.tf/files/f0067b22797e23def853f13923eb6568/vimrc) -- [viminfo](https://2023.uiuc.tf/files/b10cd1e18dcb2013f0ab008cfebf4f8b/viminfo)**
 
 ## 6. Tornado Warning
 <div class="warning" style="padding:0.1em; background-color:#1A1F35;">
@@ -241,13 +244,102 @@ Im responsible for 2 areas in my team: Misc and Osint(Rev is done after the cont
 **Provided file: [chal.jpg](https://2023.uiuc.tf/files/8f46e33bf590595eaf59163e6cd6b18f/chal.jpg)**
 
 # REV ( after contest :< )
-## 15. vmwhere1
+## 15. vmwhere1  
+<div class="warning" style="padding:0.1em; background-color:#1A1F35;">
+    <span>
+        <p style="margin-top:1em; text-align:center;">
+            <b><span style="color:#FFFFFF !important;"> Description</span></b>
+        </p>
+        <p style="margin-left:1em; color:#FFFFFF;">
+            Usage: <span style="color:red;">./chal program</span>
+        </p>
+        <p style="margin-bottom:1em; margin-right:1em; text-align:right; font-family:Georgia; color:#FFFFFF;">
+        </p>
+    </span>
+</div>
 
+**Provided files: [chal](https://2023.uiuc.tf/files/9c833de717949f0c01a8c2486d551825/chal) -- [program](https://2023.uiuc.tf/files/dfdb5cda5c5c875f4a73aa0b8d3ecbb8/program)**
 ## 16. vmwhere2
+<div class="warning" style="padding:0.1em; background-color:#1A1F35;">
+    <span>
+        <p style="margin-top:1em; text-align:center;">
+            <b><span style="color:#FFFFFF !important;"> Description</span></b>
+        </p>
+        <p style="margin-left:1em; color:#FFFFFF;">
+            Usage: <span style="color:red;">./chal program</span>
+        </p>
+        <p style="margin-bottom:1em; margin-right:1em; text-align:right; font-family:Georgia; color:#FFFFFF;">
+        </p>
+    </span>
+</div>
 
+**Provided files: [chal](https://2023.uiuc.tf/files/93c95d79b4734f30e9438158b3d19fc4/chal) -- [program](https://2023.uiuc.tf/files/0c928eeb2016c96a691f8848525b98da/program)**
 ## 17. geoguesser
+<div class="warning" style="padding:0.1em; background-color:#1A1F35;">
+    <span>
+        <p style="margin-top:1em; text-align:center;">
+            <b><span style="color:#FFFFFF !important;"> Description</span></b>
+        </p>
+        <p style="margin-left:1em; color:#FFFFFF;">
+            I thought geoguesser was too easy, so I made it harder.
+        </p>
+        <p style="margin-left:1em; color:#FFFFFF;">
+            Usage: janet -i program.jimage
+        </p>
+        <p style="margin-left:1em; color:#FFFFFF;">
+            nc geoguesser.chal.uiuc.tf 1337
+        </p>
+        <p style="margin-bottom:1em; margin-right:1em; text-align:right; font-family:Georgia; color:#FFFFFF;">
+        </p>
+    </span>
+</div>
+
+**Provided files: [janet](https://2023.uiuc.tf/files/f6aa81991db28950e07f800919c016e1/janet) -- [program.jimage](https://2023.uiuc.tf/files/a143ebe5eed56e3feba7826b2af729c0/program.jimage)**
+
+
+
+
 
 ## 18. Fast calculator
 
+<div class="warning" style="padding:0.1em; background-color:#1A1F35;">
+    <span>
+        <p style="margin-top:1em; text-align:center;">
+            <b><span style="color:#FFFFFF !important;"> Description</span></b>
+        </p>
+        <p style="margin-left:1em; color:#FFFFFF;">
+           Check out our new super fast calculator!
+        </p>
+        <p style="margin-left:1em; color:#FFFFFF;">
+            This challenge is sponsored by Battelle.
+        </p>
+        <p style="margin-bottom:1em; margin-right:1em; text-align:right; font-family:Georgia; color:#FFFFFF;">
+        </p>
+    </span>
+</div>
+
+**Provided file: [calc](https://2023.uiuc.tf/files/3f98f9a2d482dbdf10f21f645d917214/calc)**
+
 ## 19. pwnykey
 
+
+
+Link
+
+<div class="warning" style="padding:0.1em; background-color:#1A1F35;">
+    <span>
+        <p style="margin-top:1em; text-align:center;">
+            <b><span style="color:#FFFFFF !important;"> Description</span></b>
+        </p>
+        <p style="margin-left:1em; color:#FFFFFF;">
+           Can you obtain a valid pwnyOS activation key?
+        </p>
+        <p style="margin-left:1em; color:#FFFFFF;">
+            [Link](https://pwnykey-web.chal.uiuc.tf/)
+        </p>
+        <p style="margin-bottom:1em; margin-right:1em; text-align:right; font-family:Georgia; color:#FFFFFF;">
+        </p>
+    </span>
+</div>
+
+**Provided file: [handout.tar.gz](https://2023.uiuc.tf/files/747bf836a19c58fac33518ad06a65e20/handout.tar.gz)**
