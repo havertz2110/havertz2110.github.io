@@ -121,7 +121,7 @@ Im responsible for 2 areas in my team: Misc and Osint(Rev is done after the cont
 ## 7. Corny kernel
 
 
-## 8. Schrodinger's Cat ( after contest :< )
+## 8. Schrodinger's Cat ( after contest:< )
 
 # OSINT
 
