@@ -11,7 +11,7 @@ authors:
   - 4nh
 ---
 
-Hello, this is some lines for this Black Bauhinia 2023 contest. First, Im extremely hype because me with my bro  `@giappppp`  in  `phis1Ng__` had come third in solving a Misc challenge, and because of its 500 points, it made us to the top 19. That challenge was interesting so I will write some for it :D
+Hello, this is some lines for this Black Bauhinia 2023 contest. First, Im extremely hype because me with my bro  `@giappppp`  in  `phis1Ng__` had come third in solving a Misc challenge, and because of its 500 points, it made us to the top 10 ( not for long but still such an achievement :D). That challenge was so so so interesting and therefore, I will write some for it :D
 
 Im responsible for 2 areas in my team: Misc and Rev(but sadly Rev is only done after the contest, I didnt manage to complete them), and that's all, here we go :D
 
@@ -87,7 +87,7 @@ Open that, we have the remaining part:
 
 ![Alt text](image-5.png)
 
-At the time I finished, I thought I came second in solving the challenge ( haha to be honest Im extremely hype and proud of myself about it ) but because of my stupidness, I had to wait another 30s to re-submit and came third uwu. Such some sweet points and feelings with lads and so proud of my team :D
+p/s: At the time I finished, I thought I came second in solving the challenge ( haha to be honest Im extremely hype and proud of myself about it ) but because of my stupidness, I had to wait another 30s to re-submit and came third uwu. Such some sweet points and feelings with lads and so proud of my team :D
 
 To me, it is real fun to do and analyze with friend tho, really appreciate bro `@giappppp` for the tool, love u sooo.
 
