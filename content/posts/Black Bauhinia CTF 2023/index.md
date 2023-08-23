@@ -86,6 +86,8 @@ So now the password wouldnt be far. I analyze the song's name in English and it 
 Open that, we have the remaining part:
 ![Alt text](image-5.png)
 
+We came second in solving the challenge but because of my stupidness, I had to wait another 30s to re-submit and came third uwu. Such some sweet points and feelings with lads and so proud of my team :D
+
 To me, it is real fun to do and analyze with friend tho, really appreciate bro `@giappppp` for the tool, love u sooo.
 
 > flag: b6actf{3ph3m3r41_m1nd_3tern41_b0nd}
