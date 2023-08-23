@@ -86,7 +86,7 @@ So now the password wouldnt be far. I analyze the song's name in English and it 
 Open that, we have the remaining part:
 ![Alt text](image-5.png)
 
-We came second in solving the challenge but because of my stupidness, I had to wait another 30s to re-submit and came third uwu. Such some sweet points and feelings with lads and so proud of my team :D
+At the time I finished, I thought I came second in solving the challenge ( haha to be honest Im extremely hype about it ) but because of my stupidness, I had to wait another 30s to re-submit and came third uwu. Such some sweet points and feelings with lads and so proud of my team :D
 
 To me, it is real fun to do and analyze with friend tho, really appreciate bro `@giappppp` for the tool, love u sooo.
 
