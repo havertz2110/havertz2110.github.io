@@ -1,5 +1,5 @@
 ---
-title: "UIU CTF 2023"
+title: "Black Bauhinia CTF 2023"
 description: "Writeup for Black Bauhinia CTF 2023"
 summary: "Writeup for Black Bauhinia CTF 2023"
 categories: ["Writeup"]
