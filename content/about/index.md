@@ -36,3 +36,6 @@ Here are some of my fav melodies:
 
 p/s: This blog is inspired by a brother of mine in UIT: Jinn (lephuduc)
 <img src="thanks.webp" alt="Alt Text" width="200" height="100">
+<p align="center">
+    <img src="thanks.webp" alt="Alt Text" width="200" height="100" style="display: block; margin: 0 auto;">
+</p>
