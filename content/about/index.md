@@ -27,11 +27,7 @@ I'm studying Information Security (Honor Program) at University of Information T
 
 My currently working area: DFIR, Reverse Engineering and AI 
 
-Moreover, Im also interested in chemistry (currently is organics, but im doing research on physical and nuclear chemistry) and physics ( especially in quantum tunnelling). If u have the same interest as me, feel free to give me a text :D, we can have small talks about them, see ya
-
-Here are some of my fav melodies:
-
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4OemxsXH1V9f76lKuDZR9X?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+Moreover, Im also interested in chemistry (currently is organics, but im doing research on physical and nuclear chemistry) and physics ( especially in quantum tunnel). If u have the same interest as me, feel free to give me a text :D, we can have small talks about them, see ya
 
 
 p/s: This blog is inspired by a brother of mine in UIT: Jinn (lephuduc)
