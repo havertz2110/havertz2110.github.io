@@ -36,7 +36,25 @@ Im responsible for 2 areas in my team: Misc and Osint(Rev is done after the cont
 
 
 At my first try, I saw 1 thing that if I connected to the server, I would be stuck at vim environment, therefore, I couldn't type anything I couldn't get out of this as a result. So, I think we have to find something in order to get out of this ( it would pop up a flag in the end, i guess?? :D )
-Because of that, I looked up at the provided files, I checked at 'nsjail.cfg' but nothing looked sus in there, so I checked the rest ones. 
+
+Because of that, I looked up at the provided files, I checked at 'nsjail.cfg' but nothing looked sus in there, so I checked the rest ones. I soonly noticed in 'vim.rc'that are very cool :dagger_knife: :
+```bash
+set nocompatible
+set insertmode
+
+inoremap <c-o> nope
+inoremap <c-l> nope
+inoremap <c-z> nope
+inoremap <c-\><c-n> nope
+```
+We can see that vim is in `insertmode` so we have to do sth to escape it. And those 'inoremap' give me an idea of combining keywords together so that we can escape :D.
+
+After trying for a little bit with many different combinations, finally I figured out that the combination: `<c-\><c-o>` worked :D
+
+![](https://hackmd.io/_uploads/HkABiKRn2.png)
+
+
+flag: uiuctf{n0_3sc4p3_f0r_y0u_8613a322d0eb0628}
 ## 2. vimjail1.5
 
 <div class="warning" style="padding:0.1em; background-color:#1A1F35;">
@@ -77,7 +95,11 @@ Because of that, I looked up at the provided files, I checked at 'nsjail.cfg' bu
     </span>
 </div>
 
+
 **Provided files: [entry.sh](https://2023.uiuc.tf/files/62b21acdeb6002bd9031cb569c43c8d4/entry.sh) -- [nsjail.cfg](https://2023.uiuc.tf/files/7787cd00e0f101d9680a52caee6b142a/nsjail.cfg)-- [vimrc](https://2023.uiuc.tf/files/35c5ace464a7bfa666295c14a2f8a9ed/vimrc) -- [viminfo](https://2023.uiuc.tf/files/bf3c336737319e16887d1b411234ae2f/viminfo)**
+
+So this time, 
+
 ## 4. vimjail2.5
 <div class="warning" style="padding:0.1em; background-color:#1A1F35;">
     <span>
