@@ -37,7 +37,7 @@ Im responsible for 2 areas in my team: Misc and Osint(Rev is done after the cont
 
 At my first try, I saw 1 thing that if I connected to the server, I would be stuck at vim environment, therefore, I couldn't type anything I couldn't get out of this as a result. So, I think we have to find something in order to get out of this ( it would pop up a flag in the end, i guess?? :D )
 
-Because of that, I looked up at the provided files, I checked at 'nsjail.cfg' but nothing looked sus in there, so I checked the rest ones. I soonly noticed in 'vim.rc'that are very cool :dagger_knife: :
+Because of that, I looked up at the provided files, I checked at 'nsjail.cfg' but nothing looked sus in there, so I checked the rest ones. I soonly noticed in 'vim.rc' that are very cool :dagger_knife: :
 ```bash
 set nocompatible
 set insertmode
