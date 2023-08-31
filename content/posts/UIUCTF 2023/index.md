@@ -78,7 +78,15 @@ After trying for a little bit with many different combinations, finally I figure
 
 **Provided files: [entry.sh](https://2023.uiuc.tf/files/55063dc423a8373f8cbc60d8aabd4ba6/entry.sh) -- [nsjail.cfg](https://2023.uiuc.tf/files/77ce241f2ff30c19cee849f65f2cf0dd/nsjail.cfg)-- [vimrc](https://2023.uiuc.tf/files/a5c49e80eb02414585d49a4815d2f004/vimrc)**
 
+Looking at the `vimrc`, it just simply maps sth so I dont think use the normal way would help. I try a couple combination of `Ctrl` + sth, and `Ctrl + R=` works. I mean, this allows us to enter an expression, the result of which will be inserted to the file. It also allows entering keys and commands, as described by this example from this [link](https://vimhelp.org/insert.txt.html?#i_CTRL-R_=)
 
+By doing that, we will use this:
+```vim
+"\<Esc>:e /flag.txt"
+```
+and get the flag as result
+![Alt text](vim.gif)
+>flag: uiuctf{ctr1_r_1s_h4ndy_277d0fde079f49d2}
 
 ## 3. vimjail2
 
