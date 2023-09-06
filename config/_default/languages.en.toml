@@ -11,13 +11,13 @@ title = "4nh's laboratory"
   # logo = "img/logo.png"
   secondaryLogo = "img/violeto.jpg"
   description = "4nh's laboratory"
-  copyright = "Copyright © 4nh"
+  copyright = " ©4nh"
 
  [author]
    name = "4nh"
    image = "img/violeto.jpg"
    headline = "higher risk, higher reward"
-   bio = "Everything is open-source 😉"
+   bio = "because we're not falling back, we're pushing 4ward"
    links = [
 #     { email = "mailto:hello@your_domain.com" },
 #     { link = "https://link-to-some-website.com/" },

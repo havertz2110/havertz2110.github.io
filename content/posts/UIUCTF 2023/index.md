@@ -226,7 +226,7 @@ ZCZC-UXU-TFR-R18007ST_45-0910BR5-KIND3RWS-_@___Q	,
 ZCZC-WIR-TO{3018W0R+00T5-09UT115-K_EV/NWS-____*
 ZCZC-WXRCTOR-0D_007+004OR_O1011E@KIND/N}S-_`__E_
 ```
-Starting after the `ZCZC` we see `U` is different, same with `I` and `U` in the next. Gradually by doing that, we will have the flag.
+Starting after the `ZCZC` we see `U` is different from its column ( to W and W), same with `I` and `U` in the next. Gradually by doing that, we will have the flag.
 > flag: UIUCTF{3RD_W0RST_TOR_OUTBRE@K_EV3R}
 
 
@@ -343,7 +343,7 @@ For example:
 
 
 
-## 9. Finind Artinfacts 2
+## 9. Finding Artifacts 2
 <div class="warning" style="padding:0.1em; background-color:#1A1F35;">
     <span>
          <p style="margin-top:1em; text-align:center;">
