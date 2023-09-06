@@ -17,7 +17,7 @@ enableCodeCopy = true
 
 disableImageOptimization = trues
 
-defaultBackgroundImage = "/img/background1.jpg"
+defaultBackgroundImage = "/img/background1.png"
 # defaultFeaturedImage = "IMAGE.jpg" # used as default for featured images in all articles
 
 # highlightCurrentMenuArea = true
