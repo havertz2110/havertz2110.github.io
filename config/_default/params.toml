@@ -15,9 +15,9 @@ enableCodeCopy = true
  mainSections = ["posts", "section2"]
 # robots = ""
 
-disableImageOptimization = true
+disableImageOptimization = trues
 
-defaultBackgroundImage = "/img/background1.png"
+defaultBackgroundImage = "/img/background1.jpg"
 # defaultFeaturedImage = "IMAGE.jpg" # used as default for featured images in all articles
 
 # highlightCurrentMenuArea = true
