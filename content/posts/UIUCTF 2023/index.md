@@ -477,7 +477,7 @@ And the text ```"His usernames have been relatively consistent"```, shows that, 
 Checking the normal history wont show us anything, I remember that it was saying about tree, so I check the branch afterward. There were a 2nd branch tho, checking its history we will have this:
 
 ![Alt text](image-23.png)
-![]](image-24.png)
+![](image-24.png)
 
 >flag: uiuctf{italy}
 ## 13. First class mail
