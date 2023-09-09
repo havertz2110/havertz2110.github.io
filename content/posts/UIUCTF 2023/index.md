@@ -248,7 +248,7 @@ Starting after the `ZCZC` we see `U` is different from its column ( to W and W),
     </span>
 </div>
 
-**Provided files: [pwnymodule.c](https://2023.uiuc.tf/files/50c78a71356747e5826df90ea04d6d3a/pwnymodule.c)
+**Provided files: [pwnymodule.c](https://2023.uiuc.tf/files/50c78a71356747e5826df90ea04d6d3a/pwnymodule.c)**
 
 So this challenge gives us a file `pwnymodule.c` and remote access to server to run commands. And to get the flag, the only way is to understanding the behavior of the linux kernel. 
 
@@ -342,6 +342,17 @@ For example:
 </div>
 
 
+So i use chatgpt to find: 
+
+![Alt text](image-7.png)
+
+And I couldnt find anything different statues tho, so i will try to look for the museums this time: 
+
+![Alt text](image-8.png)
+
+After trying all of that, I found out that the museum we are finding is ```The Rubin Museum of Art```
+
+>flag: uiuctf{rubin_museum_of_art}
 
 ## 9. Finding Artifacts 2
 <div class="warning" style="padding:0.1em; background-color:#1A1F35;">
@@ -359,7 +370,25 @@ For example:
         </p>
     </span>
 </div>
+Going for chatgpt again :))):
 
+![Alt text](image-9.png)
+
+And we can seee its name is ```The subway shovel```, so now i will try to find where it is displayed now:
+
+![Alt text](image-10.png)
+
+At first, I use gpt and it returned for me a museum that called```New York Transit Museum``` , but it is incorrect. So I try to look up for it on Google and find a page that is pretty reliable: https://collections.mcny.org/C.aspx?VP3=CMS3&VF=Home
+
+![Alt text](image-13.png)
+
+Immediately, I use the search bar to find if the shovel is here or not:
+
+![Alt text](image-14.png)
+
+BINGOOO!!! We find it
+
+>flag: uiuctf{museum_of_the_city_of_new_york}
 ## 10. What's for dinner
 
 <div class="warning" style="padding:0.1em; background-color:#1A1F35;">
@@ -378,6 +407,11 @@ For example:
     </span>
 </div>
 
+So about finding online profile, we can only think of twitter, so I just find the guy's name:
+![](image-15.png)
+
+And it's done :)))
+>flag: uiuctf{i_like_spaghetti}
 
 ## 11. Finding Jonah
 <div class="warning" style="padding:0.1em; background-color:#1A1F35;">
@@ -398,6 +432,27 @@ For example:
 
 **Provided file: [chicago.jpeg](https://2023.uiuc.tf/files/9c55eca8296b05baa372a345bb5acf87/chicago.jpeg)**
 
+This is the image:
+![Alt text](image-16.png)
+
+This time, the hint tell us some good points. It is related to the previous challenge, so it must be clear that the place he eats is near to the hotel. 
+
+The hint translating to Italy is ```gioia```, and according to that we have an Italy restaurant named ```gioia chicago```:
+![Alt text](image-18.png)
+
+Rotating a little bit, we will see it clear:
+
+![Alt text](image-19.png)
+
+Moving closer, we will find the place:
+![Alt text](image-20.png)
+
+After that, by using google map, I found the exact one:
+![Alt text](image-25.png)
+![Alt text](image-17.png)
+>flag: uiuctf{hampton_inn}
+
+
 ## 12. Jonah's Journal
 <div class="warning" style="padding:0.1em; background-color:#1A1F35;">
     <span>
@@ -414,8 +469,17 @@ For example:
         </p>
     </span>
 </div>
+In this challenge, as the hint and the challenge itself stated, this gotta be github repository related.
 
+And the text ```"His usernames have been relatively consistent"```, shows that, Jonnah use the same username like his twitter:
+![Alt text](image-22.png)
 
+Checking the normal history wont show us anything, I remember that it was saying about tree, so I check the branch afterward. There were a 2nd branch tho, checking its history we will have this:
+
+![Alt text](image-23.png)
+![]](image-24.png)
+
+>flag: uiuctf{italy}
 ## 13. First class mail
 <div class="warning" style="padding:0.1em; background-color:#1A1F35;">
     <span>
@@ -434,6 +498,30 @@ For example:
 </div>
 
 **Provided file: [chal.jpg](https://2023.uiuc.tf/files/8f46e33bf590595eaf59163e6cd6b18f/chal.jpg)**
+![Alt text](image-26.png)
+
+So it wants us to find where he's at at the moment, but thanks to the last challs, we know that he is in the one hotel in chicago, so just look up for it postal code in the address and we have completed the series. Such a wonderful trip:
+
+>flag: uiuctf{60661}
+
+p/s: I have another interesting way to do, examine the pic for a little bit, we can see there is some kind of barcode printed on the envelope, googling a little bit we can see that it is [`postnet barcode`](https://www.barcode.ro/tutorials/barcodes/postnet.html). Every digit is represented with 5 bars and the encoding is like this:
+
+```
+1   ■ ■ ■ █ █
+2   ■ ■ █ ■ █
+3   ■ ■ █ █ ■
+4   ■ █ ■ ■ █
+5   ■ █ ■ █ ■
+6   ■ █ █ ■ ■
+7   █ ■ ■ ■ █
+8   █ ■ ■ █ ■
+9   █ ■ █ ■ ■
+0   █ █ ■ ■ ■
+```
+
+In fact, there are different ways for US delivery address coding, this one is a 5-digit ZIP + 4 code. The lasts digit is a check digit. The first 9 digits are summed up and the check is the rest needed to sum to a multiple of 10.
+
+The bar code on the envelope looks like this `█   ■ █ █ ■ ■   █ █ ■ ■ ■   ■ █ █ ■ ■   ■ █ █ ■ ■   ■ ■ ■ █ █   ■ ■ ■ █ █   ■ ■ ■ █ █   ■ ■ █ ■ █   ■ ■ █ █ ■   ■ █ ■ ■ █   █` split by digits and frame bars. If decoded we have `6066111234` with `4` is the checkcode. `6+0+6+6+1+1+1+2+3 = 26`, adding the check digit we end up with `30` which obiously is a multiple of 10. So the actual ZIP value is `60661-1123`.
 
 # REV ( after contest :< )
 ## 14. vmwhere1  
