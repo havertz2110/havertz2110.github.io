@@ -36,5 +36,5 @@ If u have the same interest as me, feel free to send me a message :D, we can hav
 p/s: This blog is inspired by a brother of mine in UIT: Jinn (lephuduc)
 
 <p align="center">
-    <img src="thanks.webp" alt="Alt Text" width="200" height="100" style="display: block; margin: 0 auto;">
+    <img src="thanks.webp" alt="Alt Text" width="200" height="200" style="display: block; margin: 0 auto;">
 </p>
