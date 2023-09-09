@@ -1,7 +1,7 @@
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "4nh's laboratory"
+title = "Irene's blog"
 
 [params]
   displayName = "EN"
@@ -10,11 +10,11 @@ title = "4nh's laboratory"
   dateFormat = "2 January 2006"
   # logo = "img/logo.png"
   secondaryLogo = "img/violeto2.png"
-  description = "4nh's laboratory"
-  copyright = "4nh"
+  description = "Irene's blog"
+  copyright = "Irene"
 
  [author]
-   name = "4nh"
+   name = "Irene"
    image = "img/violeto2.png"
    headline = "because we're not falling back, we're pushing forward"
    bio = "keep it steady"

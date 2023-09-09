@@ -21,13 +21,16 @@ layoutBackgroundHeaderSpace: false
 
 ---
 
-Hi, I'm 4nh
+Hi, I'm Irene,
 
-I'm studying Information Security (Honor Program) at University of Information Technology VNU HCM city.
+I'm currently:
+- Studying Information Security (Honor Program) at University of Information Technology VNU HCM city ~~
+- Chilling in [UIT InsecLab](https://inseclab.uit.edu.vn/) <3
+- Playing ctf with bros in [phis1Ng__](https://ctftime.org/team/213093) :D
 
-My currently working area: DFIR, Reverse Engineering and AI 
+My currently working areas are DFIR, Reverse Engineering and AI (haha Im just a mid one). Moreover, I'm also interested in chemistry (currently is organics, but im doing research on physical and nuclear chemistry) and physics (especially in quantum tunnel). In my free time, I also love playing football, studying new languages and reading books.
 
-Moreover, Im also interested in chemistry (currently is organics, but im doing research on physical and nuclear chemistry) and physics ( especially in quantum tunnel). If u have the same interest as me, feel free to give me a text :D, we can have small talks about them, see ya
+If u have the same interest as me, feel free to send me a message :D, we can have small talks about them, see ya !!!
 
 
 p/s: This blog is inspired by a brother of mine in UIT: Jinn (lephuduc)
