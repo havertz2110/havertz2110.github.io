@@ -520,3 +520,76 @@ p/s: now im too lazy to write the wus, see u soon
 Just use ROT47 to decode =))
 
 >flag: picoCTF{1|\/|_4_p34|\|ut_8c551048}
+
+
+
+## 8. vault-door-training
+
+<div class="warning" style="padding:0.1em; background-color:#1A1F35;">
+    <span>
+        <p style="margin-top:1em; text-align:center;">
+            <b><span style="color:#FFFFFF !important;"> Description</span></b>
+        </p>
+        <p style="margin-left:1em; color:#FFFFFF;">
+              Your mission is to enter Dr. Evil's laboratory and retrieve the blueprints for his Doomsday Project. The laboratory is protected by a series of locked vault doors. Each door is controlled by a computer and requires a password to open. Unfortunately, our undercover agents have not been able to obtain the secret passwords for the vault doors, but one of our junior agents obtained the source code for each vault's computer! You will need to read the source code for each level to figure out what the password is for that vault door. As a warmup, we have created a replica vault in our training facility. The source code for the training vault is here: <a href="https://jupiter.challenges.picoctf.org/static/03c960ddcc761e6f7d1722d8e6212db3/VaultDoorTraining.java">VaultDoorTraining.java</a>
+        </p>
+        <p style="margin-bottom:1em; margin-right:1em; text-align:right; font-family:Georgia; color:#FFFFFF;">
+        </p>
+    </span>
+</div>
+
+just open the given file and copy the flag
+>flag: picoCTF{w4rm1ng_Up_w1tH_jAv4_3808d338b46}
+
+
+
+## 9. speeds and feeds
+<div class="warning" style="padding:0.1em; background-color:#1A1F35;">
+    <span>
+         <p style="margin-top:1em; text-align:center;">
+            <b><span style="color:#FFFFFF !important;"> Description</span></b>
+        <p style="margin-left:1em; color:#FFFFFF;">
+            There is something on my shop network running at <span style="color:red;">nc mercury.picoctf.net 28067</span>, but I can't tell what it is. Can you?
+        </p>
+        <details>
+            <summary style="color:#FFFFFF;">Hint 1</summary>
+            <p style="margin-left:1em; color:#FFFFFF;">What language does a CNC machine use?</p>
+        </details>
+        <p style="margin-bottom:1em; margin-right:1em; text-align:right; font-family:Georgia;">
+        </p>
+    </span>
+</div>
+
+So to me this is an easy challenge but the result is kinda fire, first connect to the server above we will have a bunch of weird codes(this is a part of it, u can see it urself when connet to it):
+![Alt text](image-1.png)
+
+So now it's time to look at the hint, it said that it is related to the CNC machine, so we will do some google to find what code is used in it. After finding, we will realize that is ```G-code``` and as every ctf player will do, we will find an online tool to decode it, i found [one](https://ncviewer.com/). Copy all of those in the terminal and u will have this, kinda interesting isn't it?
+
+![Alt text](image.png)
+
+>flag: picoCTF{num3r1cal_c0ntr0l_84d2d117}
+
+
+## 10. vault-door 1
+
+<div class="warning" style="padding:0.1em; background-color:#1A1F35;">
+    <span>
+         <p style="margin-top:1em; text-align:center;">
+            <b><span style="color:#FFFFFF !important;"> Description</span></b>
+        <p style="margin-left:1em; color:#FFFFFF;">
+            This vault uses some complicated arrays! I hope you can make sense of it, special agent. The source code for this vault is here: <a href="https://jupiter.challenges.picoctf.org/static/87e103a8db01087de9ccf5a7a022ddf8/VaultDoor1.java">VaultDoor1.java </a>
+        </p>
+        <details>
+            <summary style="color:#FFFFFF;">Hint 1</summary>
+            <p style="margin-left:1em; color:#FFFFFF;">Look up the charAt() method online.</p>
+        </details>
+        <p style="margin-bottom:1em; margin-right:1em; text-align:right; font-family:Georgia;">
+        </p>
+    </span>
+</div>
+
+It is kinda easy, just ask chatgpt to place the character in ```public boolean checkPassword``` (it is the flag)  order for you:
+
+![](image-2.png)
+
+>flag:  picoCTF{d35cr4mbl3_tH3_cH4r4cT3r5_f6daf4}
