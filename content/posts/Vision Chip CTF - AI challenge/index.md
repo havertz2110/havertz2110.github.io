@@ -1,5 +1,5 @@
 ---
-title: "SeeTF 2023"
+title: "VisionChip AI 2023"
 description: "Vision Chip CTF - AI "
 summary: "Vision Chip CTF - AI"
 categories: ["Writeup"]
