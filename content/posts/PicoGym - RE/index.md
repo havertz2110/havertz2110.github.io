@@ -81,7 +81,7 @@ for num in numbers:
 flag = ''.join(result_chars)
 print(flag)
 ```
-flag: picoCTF{16_bits_inst34d_of_8_0ddcd97a}
+> flag: picoCTF{16_bits_inst34d_of_8_0ddcd97a}
 
 p/s: im still figuring out why with each player, it has a different flag's tail 
 
@@ -217,8 +217,12 @@ print(key)
 ```
 And here is the key: 75fc1081, so the flag is taken :D
 
-flag: picoCTF{1n_7h3_I<3y_of_75fc1081}
+> flag: picoCTF{1n_7h3_I<3y_of_75fc1081}
 p/s: I is the `|` symbol, I dont know why I cant type it
+
+
+
+
 
 ## 3. droids3
 
@@ -372,7 +376,7 @@ This change is to call the real function that gives the real flag. Yes, its moti
 
 This time, the input is not random anymore, it is the password u found above, type it and u will get the flag.
 
-flag: picoCTF{not.particularly.silly}
+> flag: picoCTF{not.particularly.silly}
 
 
 ## 5. Forky - 500pts
@@ -494,4 +498,25 @@ flag: picoCTF{-721750240}
 
 ## 6. Wizardlike - 500pts
 p/s: now im too lazy to write the wus, see u soon
-picoCTF{ur_4_w1z4rd_8F4B04AE}
+> flag: picoCTF{ur_4_w1z4rd_8F4B04AE}
+
+
+## 7. crackme.py
+
+
+<div class="warning" style="padding:0.1em; background-color:#1A1F35;">
+    <span>
+        <p style="margin-top:1em; text-align:center;">
+            <b><span style="color:#FFFFFF !important;"> Description</span></b>
+        </p>
+        <p style="margin-left:1em; color:#FFFFFF;">
+            <a href="https://mercury.picoctf.net/static/f440bf2510a28914afae2947749f2db0/crackme.py">crackme.py</a>
+        </p>
+        <p style="margin-bottom:1em; margin-right:1em; text-align:right; font-family:Georgia; color:#FFFFFF;">
+        </p>
+    </span>
+</div>
+
+Just use ROT47 to decode =))
+
+>flag: picoCTF{1|\/|_4_p34|\|ut_8c551048}

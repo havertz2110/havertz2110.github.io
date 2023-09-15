@@ -600,26 +600,4 @@ The bar code on the envelope looks like this `█   ■ █ █ ■ ■   █ �
 
 **Provided file: [calc](https://2023.uiuc.tf/files/3f98f9a2d482dbdf10f21f645d917214/calc)**
 
-## 18. pwnykey
 
-
-
-Link
-
-<div class="warning" style="padding:0.1em; background-color:#1A1F35;">
-    <span>
-        <p style="margin-top:1em; text-align:center;">
-            <b><span style="color:#FFFFFF !important;"> Description</span></b>
-        </p>
-        <p style="margin-left:1em; color:#FFFFFF;">
-           Can you obtain a valid pwnyOS activation key?
-        </p>
-        <p style="margin-left:1em; color:#FFFFFF;">
-            [Link](https://pwnykey-web.chal.uiuc.tf/)
-        </p>
-        <p style="margin-bottom:1em; margin-right:1em; text-align:right; font-family:Georgia; color:#FFFFFF;">
-        </p>
-    </span>
-</div>
-
-**Provided file: [handout.tar.gz](https://2023.uiuc.tf/files/747bf836a19c58fac33518ad06a65e20/handout.tar.gz)**
