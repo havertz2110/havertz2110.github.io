@@ -462,6 +462,28 @@ It starts by allocating 4 bytes of memory using the mmap() function and sets the
 
 Then, it forks the process four times using the fork() function. This will create a total of 16 processes (including the original one) in a tree-like structure.
 
+
+*
+|
+|
+|
+*-------------------------------*                        	// fork first time, create a sub process and continue its own process --> 2 processes now
+|                     		|	
+|	              		|
+|	             		|
+*---------------*          	*--------------*         	// fork second time --> 4 processes
+|          	|          	|              |      
+|          	|          	|              |      
+|          	|          	|              |      
+*-------*    	*-------*       *-------*      *-------* 	// fork third time ---> 12 processes
+|     	|     	|       |       |       |      |       |
+|     	|	|   	|       |       |      |       |
+| 	|     	|       |       |       |      |       |
+*---*   *---*   *---*   *---*   *---*   *---*  *---*   *---* 	// fork fourth time --> 16 processes
+|   |   |   |   |   |   |   |   |   |   |   |  |   |   |   |
+|   |   |   |   |   |   |   |   |   |   |   |  |   |   |   |
+|   |   |   |   |   |   |   |   |   |   |   |  |   |   |   |
+
 Each process increments the value at the memory location by 0x499602d2.
 
 After the forks, each process calls the doNothing() function with the value at the memory location as the parameter.
@@ -570,7 +592,7 @@ So now it's time to look at the hint, it said that it is related to the CNC mach
 >flag: picoCTF{num3r1cal_c0ntr0l_84d2d117}
 
 
-## 10. vault-door 1
+## 10. vault-door-1
 
 <div class="warning" style="padding:0.1em; background-color:#1A1F35;">
     <span>
@@ -593,3 +615,62 @@ It is kinda easy, just ask chatgpt to place the character in ```public boolean c
 ![](image-2.png)
 
 >flag:  picoCTF{d35cr4mbl3_tH3_cH4r4cT3r5_f6daf4}
+
+## 11. file-run1
+<div class="warning" style="padding:0.1em; background-color:#1A1F35;">
+    <span>
+         <p style="margin-top:1em; text-align:center;">
+            <b><span style="color:#FFFFFF !important;"> Description</span></b>
+        <p style="margin-left:1em; color:#FFFFFF;">
+            A program has been provided to you, what happens if you try to run it on the command line?
+        <br>
+            Download the program  <a href="https://artifacts.picoctf.net/c/218/run">here. </a>
+        </p>
+        <details>
+            <summary style="color:#FFFFFF;">Hint 1</summary>
+            <p style="margin-left:1em; color:#FFFFFF;">To run the program at all, you must make it executable (i.e. $ chmod +x run).</p>
+        </details>
+        <p style="margin-bottom:1em; margin-right:1em; text-align:right; font-family:Georgia;">
+        </p>
+        <details>
+            <summary style="color:#FFFFFF;">Hint 2</summary>
+            <p style="margin-left:1em; color:#FFFFFF;">Try running it by adding a '.' in front of the path to the file (i.e. $ ./run)</p>
+        </details>
+        <p style="margin-bottom:1em; margin-right:1em; text-align:right; font-family:Georgia;">
+        </p>
+    </span>
+</div>
+
+Just do exactly what the hints told us: 
+![Alt text](image-3.png)
+
+>flag: picoCTF{U51N6_Y0Ur_F1r57_F113_9bc52b6b}
+
+## 12. file-run2
+<div class="warning" style="padding:0.1em; background-color:#1A1F35;">
+    <span>
+         <p style="margin-top:1em; text-align:center;">
+            <b><span style="color:#FFFFFF !important;"> Description</span></b>
+        <p style="margin-left:1em; color:#FFFFFF;">
+            Another program, but this time, it seems to want some input. What happens if you try to run it on the command line with input "Hello!"?
+        <br>
+            Download the program  <a href="https://artifacts.picoctf.net/c/156/run">here. </a>
+        </p>
+        <details>
+            <summary style="color:#FFFFFF;">Hint 1</summary>
+            <p style="margin-left:1em; color:#FFFFFF;">Try running it and add the phrase "Hello!" with a space in front (i.e. "./run Hello!")</p>
+        </details>
+        <p style="margin-bottom:1em; margin-right:1em; text-align:right; font-family:Georgia;">
+        </p>
+    </span>
+</div>
+
+
+
+Do exactly as what the hint told u to (dont forget to ```chmod +x run```):
+![Alt text](image-4.png)
+
+## 13. shop
+
+
+![Alt text](image-5.png)
