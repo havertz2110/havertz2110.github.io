@@ -461,30 +461,7 @@ main endp
 It starts by allocating 4 bytes of memory using the mmap() function and sets the value at that memory location to 1000000000.
 
 Then, it forks the process four times using the fork() function. This will create a total of 16 processes (including the original one) in a tree-like structure.
-
-```cpp
-*
-|
-|
-|
-*-------------------------------*                        	// fork first time, create a sub process and continue its own process --> 2 processes now
-|                     		|	
-|	              		|
-|	             		|
-*---------------*          	*--------------*         	// fork second time --> 4 processes
-|          	|          	|              |      
-|          	|          	|              |      
-|          	|          	|              |      
-*-------*    	*-------*       *-------*      *-------* 	// fork third time ---> 12 processes
-|     	|     	|       |       |       |      |       |
-|     	|	|   	|       |       |      |       |
-| 	|     	|       |       |       |      |       |
-*---*   *---*   *---*   *---*   *---*   *---*  *---*   *---* 	// fork fourth time --> 16 processes
-|   |   |   |   |   |   |   |   |   |   |   |  |   |   |   |
-|   |   |   |   |   |   |   |   |   |   |   |  |   |   |   |
-|   |   |   |   |   |   |   |   |   |   |   |  |   |   |   |
-
-```
+![Alt text](image-6.png)
 Each process increments the value at the memory location by 0x499602d2.
 
 After the forks, each process calls the doNothing() function with the value at the memory location as the parameter.
