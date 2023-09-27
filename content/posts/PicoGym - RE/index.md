@@ -462,7 +462,7 @@ It starts by allocating 4 bytes of memory using the mmap() function and sets the
 
 Then, it forks the process four times using the fork() function. This will create a total of 16 processes (including the original one) in a tree-like structure.
 
-
+```cpp
 *
 |
 |
@@ -484,6 +484,7 @@ Then, it forks the process four times using the fork() function. This will creat
 |   |   |   |   |   |   |   |   |   |   |   |  |   |   |   |
 |   |   |   |   |   |   |   |   |   |   |   |  |   |   |   |
 
+```
 Each process increments the value at the memory location by 0x499602d2.
 
 After the forks, each process calls the doNothing() function with the value at the memory location as the parameter.
