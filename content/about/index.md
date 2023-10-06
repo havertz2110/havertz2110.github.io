@@ -21,7 +21,7 @@ layoutBackgroundHeaderSpace: false
 
 ---
 
-Hi, I'm ryūjinnn,
+Hi, I'm Ryūjinnn,
 
 I'm currently:
 - Studying Information Security (Honor Program) at University of Information Technology VNU HCM city ~~
