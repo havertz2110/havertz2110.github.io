@@ -1,7 +1,7 @@
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Ryūjinnn"
+title = "Ryū-yi"
 
 [params]
   displayName = "EN"
@@ -10,11 +10,11 @@ title = "Ryūjinnn"
   dateFormat = "2 January 2006"
   # logo = "img/logo.png"
   secondaryLogo = "img/violeto2.png"
-  description = "Ryūjinnn"
-  copyright = "Ryūjinnn"
+  description = "Ryū-yi"
+  copyright = "Ryū-yi"
 
  [author]
-   name = "Ryūjinnn"
+   name = "Ryū-yi"
    image = "img/violeto2.png"
    headline = "because we're not falling back, we're pushing forward"
    bio = "take the risk or lose the chance"
