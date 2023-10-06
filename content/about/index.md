@@ -21,7 +21,7 @@ layoutBackgroundHeaderSpace: false
 
 ---
 
-Hi, u can  find me as Ryū-yi, ryū-yi, ryu-yi, or any preference of it :)
+Hi, u can  find me as Ryū-yi, ryu-yi, or any preference of it :)
 
 I'm currently:
 - Studying Information Security (Honor Program) at University of Information Technology VNU HCM city ~~
