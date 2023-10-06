@@ -10,6 +10,6 @@ draft: false
 authors:
   - 4nh
 ---
-This is a challenge from my club's training session I solved in order to achieve a present, here is my write up for it.
+This is a challenge from my club's training session I solved in order to achieve a present and it is also my first challenge, here is my write up for it.
 
-So, my teacher give us only a zip file called ```ml-visionchip```
+So, my teacher give us only a zip file called ```ml-visionchip``` and u can find it [here](https://github.com/havertz2110/havertz2110.github.io/tree/main/content/posts/Vision%20Chip%20CTF%20-%20AI%20challenge/ml_vision_chip)
