@@ -1,7 +1,7 @@
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Irene's blog"
+title = "Ryūjinnn"
 
 [params]
   displayName = "EN"
@@ -10,11 +10,11 @@ title = "Irene's blog"
   dateFormat = "2 January 2006"
   # logo = "img/logo.png"
   secondaryLogo = "img/violeto2.png"
-  description = "Irene's blog"
-  copyright = "Irene"
+  description = "Ryūjinnn"
+  copyright = "Ryūjinnn"
 
  [author]
-   name = "Irene"
+   name = "Ryūjinnn"
    image = "img/violeto2.png"
    headline = "because we're not falling back, we're pushing forward"
    bio = "take the risk or lose the chance"
