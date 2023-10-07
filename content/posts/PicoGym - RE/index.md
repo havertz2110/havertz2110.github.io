@@ -676,7 +676,7 @@ Do exactly as what the hint told u to (dont forget to ```chmod +x run```):
     </span>
 </div>
 
-It gives us a java file, and we looks at the `password checker` fucn:
+It gives us a java file, and we looks at the `password checker` func:
 ```java
  public boolean checkPassword(String password) {
         if (password.length() != 32) {
