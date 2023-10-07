@@ -652,3 +652,72 @@ Do exactly as what the hint told u to (dont forget to ```chmod +x run```):
 
 
 ![Alt text](image-5.png)
+
+
+
+
+
+
+## 14. vaultdoor3
+
+<div class="warning" style="padding:0.1em; background-color:#1A1F35;">
+    <span>
+         <p style="margin-top:1em; text-align:center;">
+            <b><span style="color:#FFFFFF !important;"> Description</span></b>
+        <p style="margin-left:1em; color:#FFFFFF;">
+            This vault uses for-loops and byte arrays. The source code for this vault is here: <a href="https://jupiter.challenges.picoctf.org/static/a4018cec1446761cb2e8cce05db925fa/VaultDoor3.java">VaultDoor3.java</a>.
+        </p>
+        <details>
+            <summary style="color:#FFFFFF;">Hint 1</summary>
+            <p style="margin-left:1em; color:#FFFFFF;">Make a table that contains each value of the loop variables and the corresponding buffer index that it writes to.</p>
+        </details>
+        <p style="margin-bottom:1em; margin-right:1em; text-align:right; font-family:Georgia;">
+        </p>
+    </span>
+</div>
+
+It gives us a java file, and we looks at the `password checker` fucn:
+```java
+ public boolean checkPassword(String password) {
+        if (password.length() != 32) {
+            return false;
+        }
+        char[] buffer = new char[32];
+        int i;
+        for (i=0; i<8; i++) {
+            buffer[i] = password.charAt(i);
+        }
+        for (; i<16; i++) {
+            buffer[i] = password.charAt(23-i);
+        }
+        for (; i<32; i+=2) { // lấy các kí tự ở thứ tự chẵn ở password điền vào buffer ở thứ tự chẵn, nhưng mà thêm vào ngược lại, như khi 
+            buffer[i] = password.charAt(46-i);
+        }
+        for (i=31; i>=17; i-=2) { // giờ ở password còn các kí tự lẻ, ta thêm vào chỗ trống
+            buffer[i] = password.charAt(i);
+        }
+        String s = new String(buffer);
+        return s.equals("jU5t_a_sna_3lpm12g94c_u_4_m7ra41");
+    }
+
+```
+
+so it takes your `input` aka `the real flag` or `buffer`, process it a little bit, and therefore produce a string exactly as the `password` which is `jU5t_a_sna_3lpm12g94c_u_4_m7ra41`. Now we will take the `buffer` as the `flag` and start our way.
+
+The first loop is just taking the first 8 characters of the `flag` and putting it again in order to create the `password`, so after the first loop, we got the first part of the flag as:  `jU5t_a_s`
+
+The second loop, is a bit more tricky, but it just take the next 8 characters from the `flag`, reverse it and put it into the `password`, which means from `na_3lpm1` in the `password` to `1mpl3_an` in the `flag`.
+After the second loop, we got the second part of the `flag` and now the flag looks like this: `jU5t_a_s1mpl3_an`
+
+Now, the `password` remains `2g94c_u_4_m7ra41` ( remind that 2 is at the odd position - 16 )
+
+The third and the last loop process characters at the even and odd positions. 
+
+The third one, take characters at even positions of the `flag` and put them in even positions of the `password` but reversingly, which means when it is `2-9-c-u-4-m-r-4` in the `password`, but in the `flag`, it would be `4-r-m-4-u-c-9-2` (dont forget the `-` are the ones at odd positions). Then, the final loop is just putting the rest ones in the `password` to the remaining places of the `flag`. I will give the demonstration pic below:
+
+
+![Alt text](image-7.png)
+
+Putting it all together, we will have `jU5t_a_s1mpl3_an4gr4m_4_u_c79a21`
+
+> flag: picoCTF{jU5t_a_s1mpl3_an4gr4m_4_u_c79a21}

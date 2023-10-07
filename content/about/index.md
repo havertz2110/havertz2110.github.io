@@ -28,7 +28,7 @@ I'm currently:
 - Chilling in [UIT InsecLab](https://inseclab.uit.edu.vn/) <3
 - Playing ctf with bros in [phis1Ng__](https://ctftime.org/team/213093) :D
 
-My currently working areas are DFIR, Reverse Engineering and AI (haha Im just a mid one).
+My currently working areas are DFIR, Reverse and AI (haha Im just a mid one).
 
 If u have the same interest as me, feel free to send me a message :D, we can have small talks about them, see ya !!!
 
