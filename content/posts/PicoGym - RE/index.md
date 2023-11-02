@@ -713,7 +713,7 @@ Now, the `password` remains `2g94c_u_4_m7ra41` ( remind that 2 is at the odd pos
 
 The third and the last loop process characters at the even and odd positions. 
 
-The third one, take characters at even positions of the `flag` and put them in even positions of the `password` but reversingly, which means when it is `2-9-c-u-4-m-r-4` in the `password`, but in the `flag`, it would be `4-r-m-4-u-c-9-2` (dont forget the `-` are the ones at odd positions). Then, the final loop is just putting the rest ones in the `password` to the remaining places of the `flag`. I will give the demonstration pic below:
+The third one, take characters at even positions of the `flag` and put them in even positions of the `password` but reversingly, which means when it is `2-9-c-u-4-m-r-4` in the `password`, but in the `flag`, it would be `4-r-m-4-u-c-9-2` (dont forget the `-` stand for the ones at odd positions). Then, the final loop is just putting the rest ones in the `password` to the remaining places of the `flag`. I will give the demonstration pic below:
 
 
 ![Alt text](image-7.png)
