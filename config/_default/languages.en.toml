@@ -1,7 +1,7 @@
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Ryū-yi"
+title = "havertz"
 
 [params]
   displayName = "EN"
@@ -10,11 +10,11 @@ title = "Ryū-yi"
   dateFormat = "2 January 2006"
   # logo = "img/logo.png"
   secondaryLogo = "img/violeto2.png"
-  description = "Ryū-yi"
-  copyright = "Ryū-yi"
+  description = "havertz"
+  copyright = "havertz"
 
  [author]
-   name = "Ryū-yi"
+   name = "havertz"
    image = "img/violeto2.png"
    headline = "because we're not falling back, we're pushing forward"
    bio = "take the risk or lose the chance"
