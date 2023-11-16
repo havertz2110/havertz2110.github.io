@@ -21,14 +21,14 @@ layoutBackgroundHeaderSpace: false
 
 ---
 
-Hi, u can  find me as Ryū-yi, ryu-yi, or any preference of it :)
+Hi, im havertz21 :)
 
 I'm currently:
 - Studying Information Security (Honor Program) at University of Information Technology VNU HCM city ~~
 - Chilling in [UIT InsecLab](https://inseclab.uit.edu.vn/) <3
 - Playing ctf with bros in [phis1Ng__](https://ctftime.org/team/213093) :D
 
-My currently working areas are DFIR, Reverse and AI (haha Im just a mid one).
+My currently working areas are Misc, Reverse and AI (haha Im just a mid one).
 
 If u have the same interest as me, feel free to send me a message :D, we can have small talks about them, see ya !!!
 
