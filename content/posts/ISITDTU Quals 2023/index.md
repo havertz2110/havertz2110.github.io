@@ -3,9 +3,9 @@ title: "ISITDTU Quals 2023"
 description: "Writeup for ISITDTU Quals 2023"
 summary: "Writeup for ISITDTU Quals 2023"
 categories: ["Writeup"]
-tags: ["Reverse","Misc","Honors","Top tier","CTF"]
+tags: ["Reverse","Misc","Top tier","CTF"]
 #externalUrl: ""
-date: 2023-08-14
+date: 2023-12-20
 draft: false
 authors:
   - ryu
