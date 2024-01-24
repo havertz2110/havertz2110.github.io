@@ -5,7 +5,7 @@ summary: "Vision Chip CTF - AI"
 categories: ["Writeup"]
 tags: ["AI","CTF"]
 #externalUrl: ""
-date: 2023-07-19
+date: 2023-07-26
 draft: false
 authors:
   - 4nh
