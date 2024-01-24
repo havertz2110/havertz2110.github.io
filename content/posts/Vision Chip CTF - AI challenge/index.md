@@ -121,4 +121,4 @@ plt.show()
 And we got: 
 ![Alt text](image-2.png)
 
-To me, it is such a good challenge for beginners cuz it teaches us some good points in image classification and some basic neccessary libraries. The above is my way in order to do this and i dont know if it is intended or not, if u have some other ways, feel free to text me. Thanks for reading!
+To me, it is such a good challenge for beginners cuz it teaches us some good points in image classification and some basic neccessary libraries. Has been saying it for beginners but I nearly spent 3 hours for it and couple more hours to fully understand. If u want to reproduce, download the file and just load the model, then paste the code above into ur code and it is done. The above script is my way in order to solve this and i dont know if it is intended or not, if u have some other ways, feel free to text me. Thanks for reading!
