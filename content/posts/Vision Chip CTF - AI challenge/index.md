@@ -1,11 +1,11 @@
 ---
-title: "VisionChip AI 2023"
-description: "Vision Chip CTF - AI "
-summary: "Vision Chip CTF - AI"
+title: "MLCTF HTBVisionChip 2023"
+description: "MLCTF HTBVisionChip 2023"
+summary: "MLCTF HTBVisionChip 2023"
 categories: ["Writeup"]
 tags: ["AI","CTF"]
 #externalUrl: ""
-date: 2023-08-01
+date: 2023-08-03
 draft: false
 authors:
   - 4nh
