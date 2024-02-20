@@ -18,3 +18,5 @@ To begin, you need to have IDA (or whatever u like), DIE,... more will be mentio
 
 # 1. Easy crack
 
+
+![alt text](image.png)
