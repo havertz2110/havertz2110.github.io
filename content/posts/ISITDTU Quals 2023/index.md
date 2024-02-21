@@ -111,8 +111,10 @@ Yes, its time to geosint a little bit now, lets dig deeper her Threads account. 
 ![alt text](image-8.png)
 
 The random number string reminded me to the url of a post, and by using the formula: 
+
 ```https://facebook.com/[random string here]```
 ```https://twitter.com/username/status/[random string here]```
+
 U will see the facebook was one more troll, but not the twitter one.
 [alt text](image-10.png)
 It is linktree, a tool to manage accounts. Downloading the image on twitter and use [Aperi Solve](https://www.aperisolve.fr/), u will have her linktree account through exiftools: https://linktr.ee/cithrelwynhice. But we will have nothing related to this challenge but the next challenge. Now it seems to hard, so by googling popular social media platforms, i found Mastodon (tooo guessy)
