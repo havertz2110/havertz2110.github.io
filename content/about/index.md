@@ -21,7 +21,7 @@ layoutBackgroundHeaderSpace: false
 
 ---
 
-Hi, im havertz21 ( u can find me as havertz2110, anhhavertz) :)
+Hi, im havertz21 (u can find me as havertz2110, anhhavertz) :)
 
 I'm currently:
 - Studying Information Security (Honor Program) at University of Information Technology VNU HCM city ~~
