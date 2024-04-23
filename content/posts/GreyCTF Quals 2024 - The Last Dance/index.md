@@ -1,5 +1,5 @@
 ---
-title: "GreyCTF Quals 2024 - The Last Dance :)"
+title: "GreyCTF Quals 2024 - The Last Dance"
 description: "Writeup for GreyCTF Quals 2024"
 summary: "Writeup for GreyCTF Quals 2024"
 categories: ["Writeup"]
