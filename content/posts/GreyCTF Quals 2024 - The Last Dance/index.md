@@ -5,7 +5,7 @@ summary: "Writeup for GreyCTF Quals 2024"
 categories: ["Writeup"]
 tags: ["Misc","CTF"]
 #externalUrl: ""
-date: 2024-4-23
+date: 2024-04-23
 draft: false
 authors:
   - anhhavertz
