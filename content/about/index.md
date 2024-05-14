@@ -29,7 +29,7 @@ I'm currently:
 
 My currently working area is AI (mostly on GNN and LLM). Moreover, I also play ctf but not as frequently as before, im still eager to learn and wait for the right time :) I play misc, a bit reverse and study lightly on web.
 
-p/s: This blog is inspired by a brother in UIT: Jinn (lephuduc)
+For reaching me, I both write on this blog and also HackMD.
 
 <p align="center">
     <img src="thanks.webp" alt="Alt Text" width="200" height="200" style="display: block; margin: 0 auto;">
