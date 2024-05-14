@@ -17,6 +17,8 @@ Hello, still me again :) this is my writeup for GreyCTF Quals 2024. To be honest
 # Misc
 ## 1. Sanity Check
 ![alt text](image-6.png)
+![alt text](image-16.png)
+>flag: grey{w3lc0m3_to_gctf2024_enjoy_your_stay!} 
 ## 2. Cats at the beach
 
 ![alt text](image.png)
