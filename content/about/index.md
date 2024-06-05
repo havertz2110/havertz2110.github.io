@@ -21,13 +21,13 @@ layoutBackgroundHeaderSpace: false
 
 ---
 
-Hi, im havertz21 (u can find me as havertz2110, anhhavertz) :)
+Hi, im havertz21 (u can find me as havertz2110 or solo_levelling) :)
 
 I'm currently:
 - Studying Information Security (Honor Program) at University of Information Technology VNU HCM city ~~
 - Doing random in [UIT InsecLab](https://inseclab.uit.edu.vn/) <3
 
-My currently working area is AI (mostly on GNN and LLM). Moreover, I also play ctf but not as frequently as before, im still eager to learn and wait for the right time :) I play misc, a bit reverse and study lightly on web.
+My currently working area is AI (mostly on GNN and LLM). Moreover, I also play ctf but not as frequently as before, but Im still eager to learn and wait for the right time :) I play misc, a bit reverse and study lightly on web.
 
 For reaching me, I both write on this blog and also HackMD.
 
