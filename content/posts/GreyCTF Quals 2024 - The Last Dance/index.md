@@ -10,9 +10,9 @@ draft: false
 authors:
   - anhhavertz
 ---
-Hello, still me again :) this is my writeup for GreyCTF Quals 2024. To be honest, its not that hard and glorious to even pull a writeup for this, but to me, this is the last time i play with my team that have been with me over last 2 years and maybe, it's also the last official ctf contest for me cuz now i have no team (still play but just on platform in order to study), so i will call this the last dance :) Therefore, I want to leave something as a farewell for this 2-year wonderful adventure. Hope my team will achieve what they want and deserve to.
+Hello, still me again :) this is my writeup for GreyCTF Quals 2024. To be honest, its not that hard and glorious to even pull a writeup for this, but to me, this is the last time i play with my team that have been with me over last 2 years and maybe, it's also the last official ctf contest for me cuz now i have no team (still play solo in order to study), so i will call this the last dance :) Therefore, I want to leave something as a farewell for this 2-year wonderful adventure. Hope my team will achieve what they want and deserve to.
 
- Anyway, this time, i almost made it through those Misc challenges, but because i was so busy in Swiss while the contest was being hosted, I couldnt manage to clear and brought shame to our team. In this writeup, I would give writeups to those I did and didnt manage to solve on time(after contest) :) 
+ Anyway, this time, i almost made it through those Misc challenges, but because i was so busy in Swiss while the contest was being hosted, I couldnt manage to clear and brought shame to our team. In this writeup, I would give writeups to those I did manage to solve on time(after contest too) :) 
 
 # Misc
 ## 1. Sanity Check
@@ -120,14 +120,3 @@ Looking at the ```@``` provided, we immediately think of Instagram :). Heading t
 ![alt text](image-15.png)
 Actually, the given hash is for the reason that there are many fake flags and we will use the hash to identify which is the real one.
 >flag: grey{y0uR_eYeS_aRe_5hArP}
-# Greycat's Adventure
-
-## 1. Timelock
-
-## 2. Vault
-
-## 3. Achievement 1
-
-## 4. Achievement 2
-
-## 5. Achevement 3
