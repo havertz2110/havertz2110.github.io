@@ -16,7 +16,7 @@ title = "havertz2110"
  [author]
    name = "havertz21"
    image = "img/violeto2.png"
-   headline = "solo levelling"
+   headline = "solo_levelling"
    bio = "take the risk or lose the chance"
    links = [
 #     { email = "mailto:hello@your_domain.com" },
