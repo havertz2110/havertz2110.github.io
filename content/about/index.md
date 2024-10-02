@@ -21,7 +21,7 @@ layoutBackgroundHeaderSpace: false
 
 ---
 
-Hi, im havertz21 (u can find me as havertz2110 or solo_levelling) :)
+Hi, im havertz (u can also find me as havertz2110, 4nh or solo_levelling) :)
 
 I'm currently:
 - Studying Information Security (Honor Program) at University of Information Technology VNU HCM city ~~
